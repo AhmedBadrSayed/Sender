@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Acticities.MainActivity">
+    tools:context=".Acticities.MainActivity"
+    android:background="#ffffff">
 
     <Button
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:id="@+id/start"
         android:text="Start Tracking"
         android:layout_centerInParent="true"
-        android:background="#0248d2"/>
+        android:background="#0248d2"
+        android:textColor="#ffffff"/>
 
 </RelativeLayout>
